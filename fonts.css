@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'ArticulatCF-Bold';
+    src: url("fonts/ArticulatCF/ArticulatCF-Bold.woff2"),
+    url("fonts/ArticulatCF/ArticulatCF-Bold.woff");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'ArticulatCF-Ligt';
+    src: url("fonts/ArticulatCF/ArticulatCF-Light.woff2"),
+    url("fonts/ArticulatCF/ArticulatCF-Light.woff");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'ArticulatCF-Medium';
+    src: url("fonts/ArticulatCF/ArticulatCF-Medium.woff2"),
+    url("fonts/ArticulatCF/ArticulatCF-Medium.woff");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'ArticulatCF-Normal';
+    src: url("fonts/ArticulatCF/ArticulatCF-Normal.woff2"),
+    url("fonts/ArticulatCF/ArticulatCF-Normal.woff");
+    font-style: normal;
+    font-weight: normal;
+
+}
+@font-face {
+    font-family: 'ArticulatCF-Regular';
+    src: url("fonts/ArticulatCF/ArticulatCF-Regular.woff2"),
+    url("fonts/ArticulatCF/ArticulatCF-Regular.woff");
+    font-style: normal;
+    font-weight: normal;
+
+}

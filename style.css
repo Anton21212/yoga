@@ -1,0 +1,523 @@
+* {
+    Margin: 0;
+    Padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+.main_backgraund{
+    background: url("img/main_backgraund.svg") no-repeat;
+}
+header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+}
+
+.header_logo {
+    margin-top: 30px;
+    margin-left: 16.66%;
+
+}
+nav{
+    margin-top: 60px;
+    margin-left: 10.7%;
+    margin-right: 11.2% ;
+
+}
+.topnav a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    font-style: normal;
+    text-transform: uppercase;
+    font-family: ArticulatCF-Medium;
+    color: white;
+    text-align: center;
+    padding-right: 60px;
+}
+.header_icon{
+    margin-top: 60px;
+}
+.iconnav a{
+    padding-right: 40px;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+main .main_title{
+    padding-top: 246px;
+    padding-left: 16.66%;
+}
+
+main .main_title h1{
+    font-style: normal;
+    font-size: 120px;
+    font-family: ArticulatCF-Bold;
+    font-weight: 700;
+    color: white;
+    line-height: 144px;
+    padding-bottom: 160px;
+
+}
+
+main .main_title p{
+    color: #3F5F4A;
+    font-family: ArticulatCF-Medium;
+    font-weight: 500;
+    font-size: 22px;
+    font-style: normal;
+    line-height: 26px;
+    padding-bottom: 104px;
+}
+
+.btn{
+    font-family: ArticulatCF-Medium;
+    font-weight: 500;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px 40px;
+    line-height: 19.2px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center;
+    background: #3F5F4A;
+    margin: 0 auto;
+
+}
+.main_btn{
+    margin: 0 auto;
+    max-width: 163px;
+    margin-bottom: 60px;
+}
+
+/* 2 стр */
+
+.wrapper{
+    overflow-x: hidden;
+    background: white;
+}
+
+.free_curs{
+    padding-top: 120px;
+}
+.info{
+    font-family: ArticulatCF-Medium;
+    line-height: 19.2px;
+    font-weight: 500;
+    font-size: 16px;
+    padding-left: 16.66%;
+    padding-bottom: 120px;
+    padding-right: 16.66% ;
+}
+.info h1{
+    padding-bottom: 80px;
+}
+
+.info_kurs {
+    width: 1920px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.info_kurs .btn{
+    position: absolute;
+    top: 380px;
+    left: 80px;
+    background: white;
+    color: #3F5F4A;
+    font-family: ArticulatCF-Medium;
+    font-size: 16px;
+    line-height: 19.2px;
+    border: none;
+    cursor: pointer;
+
+}
+.info_kurs h2{
+    position: absolute;
+    padding: 40px;
+    padding-left: 80px;
+    color: white;
+    font-family: ArticulatCF-Medium;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: uppercase;
+
+}
+
+.info_kurs span{
+    position: absolute;
+    padding: 86px;
+    padding-left: 80px;
+    color: white;
+    font-family: ArticulatCF-Medium;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.Chief_1 span{
+    position: absolute;
+}
+.Chief_1 {
+    position: relative;
+}
+.Chief_2 {
+    position: relative;
+}
+.Chief_3 {
+    position: relative;
+}
+.Chief_4 {
+    position: relative;
+}
+.Chief_5 {
+    position: relative;
+}
+.Chief_6 {
+    position: relative;
+}
+.Chief_7 {
+    position: relative;
+}
+.Chief_8 {
+    position: relative;
+}
+
+.about{
+    padding-top: 120px;
+}
+
+
+.img_author{
+    display: flex;
+    border: black;
+}
+.reviews{
+    padding-top: 120px;
+}
+.all_review{
+
+    display: flex;
+}
+.review{
+    height: 527px;
+    position: relative;
+    padding: 40px;
+    margin: 0 auto;
+    margin-right: 40px;
+    border: 2px solid #3F5F4A;
+    max-width: 400px;
+
+}
+.review p{
+    margin-bottom: 40px;
+}
+.review h2{
+    font-family: ArticulatCF-Medium;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.review p{
+    width: 320px;
+    font-family: ArticulatCF-Medium;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.2px ;
+    margin-bottom: 40px;
+
+
+}
+
+.data{
+    font-family: ArticulatCF-Medium;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #CACBCD ;
+    position: absolute;
+    bottom: 40px;
+}
+
+
+
+.more_or_add_review {
+    text-align: center;
+    padding-top: 80px;
+    text-transform: uppercase;
+
+}
+.more_or_add_review p{
+    color: #3F5F4A; ;
+    text-decoration: none;
+    margin-bottom: 60.5px;
+}
+.more_or_add_review .btn{
+    cursor: pointer;
+    color: white;
+    background: #3F5F4A;
+    border: none;
+}
+
+footer{
+    height: 615px;
+    background: url("img/backgraund_footer.svg") no-repeat;
+}
+.сertificates{
+    padding-top: 80px;
+    justify-content: space-between;
+    display: flex
+}
+
+
+.conteiner{
+    padding-top: 120px;
+    display: flex;
+    padding-bottom: 30px;
+}
+.conteiner h2{
+    font-family: ArticulatCF-Medium;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: white;
+}
+.contacts{
+    padding-right: 209px;
+}
+.conteiner table{
+    padding-top: 80px;
+}
+.conteiner a img{
+    vertical-align: bottom;
+    padding-right: 20px;
+}
+.conteiner a{
+    font-family: ArticulatCF-Medium;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    padding-bottom: 20px;
+    vertical-align: center;
+    color: white;
+}
+.conteiner tr td{
+    padding-bottom: 20px;
+}
+.navigations tr td{
+    padding-right: 60px;
+}
+
+.btn_foot{
+    font-family: ArticulatCF-Medium;
+    font-weight: 500;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px 40px;
+    line-height: 19.2px;
+    color: #3F5F4A;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center;
+    background: white;
+    margin: 0 auto;
+    border: none;
+    cursor: pointer;
+}
+
+
+.logo_foot{
+    padding-left: 393px;
+}
+
+#kris{
+    display: none;
+    width: 520px;
+    height: 686px;
+    position: absolute;
+    border: none;
+    background: white;
+
+}
+#kris .info{
+    padding: 60px 60px 40px 60px;
+}
+#kris .info h2{
+    padding-bottom: 60px;
+}
+
+
+#rev-1,#rev-2{
+    display: block;
+    width: 400px;
+}
+
+/* Chief-1*/
+
+.Chief_1_title{
+    padding-top: 260px;
+    padding-left: 16.66%;
+    padding-right: 16.66%;
+    padding-bottom: 120px;
+}
+.Chief_1_backgraund .topnav a{
+    color: black;
+}
+.Chief_1_title h2{
+    font-family: ArticulatCF-Medium;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+
+    color: #1F1F21;
+
+}
+
+.Chief_1_title h3{
+    font-family: ArticulatCF-Medium;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #3F5F4A;
+    padding-bottom: 40px;
+}
+
+.title_Chief_1{
+    display: flex;
+    padding-bottom: 80px;
+}
+.Chief_1_title span{
+    font-family: ArticulatCF-Medium;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.2px;
+
+
+}
+.Chief_1_backgraund .info_Chief_1{
+    overflow-x: hidden;
+}
+
+.info_Chief_1 .info_kurs_description{
+    padding-top: 120px;
+    font-family: ArticulatCF-Medium;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.2px;
+    padding-left: 16.66%;
+    padding-right: 16.66%;
+    padding-bottom: 120px;
+}
+/* documents */
+.documents_backgraund .topnav a{
+    color: black;
+}
+
+.documents_title{
+    padding-top: 260px;
+    padding-left: 16.66%;
+    padding-right: 16.66%;
+    padding-bottom: 120px;
+}
+.title_documents{
+    display: flex;
+}
+
+.documents_title h2{
+    font-family: ArticulatCF-Medium;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #1F1F21;
+    padding-bottom: 60px;
+
+}
+.documents_title h3{
+    font-family: ArticulatCF-Medium;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #3F5F4A;
+    padding-bottom: 40px;
+
+}
+
+.documents_title span{
+    font-family: ArticulatCF-Medium;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.2px;
+
+}
+
+/* log-in */
+.login {
+    color: white;
+    font-size: 20px;
+    max-width: fit-content;
+    margin: 0 auto;
+    box-shadow: 0 0 0 3px #fff inset;
+    display: table;
+    margin-top: 235px;
+    position: relative;
+    width: 100%;
+    background: white;
+    padding: 34px;
+    border:  2px solid #CACBCD;;
+}
+.login h1{
+    color: black;
+    padding-bottom: 60px;
+    font-family: ArticulatCF-Medium;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
+.login input{
+    border: 2px solid #CACBCD;
+    width: 400px;
+    height: 60px;
+    display: block;
+    margin-bottom: 40px;
+}
+.login span{
+    color: #CACBCD;
+    font-family: ArticulatCF-Medium;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+
+}
+.login_text{
+    padding-bottom: 60px;
+}
+
+.login .btn{
+    border: none;
+}
+@media (max-width: 1440px) {
+    .header_logo {
+        margin-left: 5.55%;
+
+    }
+
+}
